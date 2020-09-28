@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-MeshiMatching/Pods-MeshiMatching-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ACEDrawingView/ACEDrawingView.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework
+${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

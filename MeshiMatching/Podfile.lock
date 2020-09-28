@@ -1,0 +1,38 @@
+PODS:
+  - ACEDrawingView (2.2.1)
+  - Alamofire (4.9.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - CalculateCalendarLogic (0.3.0)
+  - FSCalendar (2.8.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - ACEDrawingView
+  - Alamofire
+  - Alamofire-SwiftyJSON
+  - CalculateCalendarLogic
+  - FSCalendar
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - ACEDrawingView
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - CalculateCalendarLogic
+    - FSCalendar
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ACEDrawingView: fa6e8461682a54db3ac65151474fc77ef7e54fd2
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  CalculateCalendarLogic: cd5b2c706a8628bb924c5ee9d05c4f61bdbaf390
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 5cf0a6e6c1e182e85b06f1c6e9a837d1d14f0ecb
+
+COCOAPODS: 1.8.4
