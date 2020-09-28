@@ -7,66 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8A11E3E24FE2501001DE145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E3D24FE2501001DE145 /* AppDelegate.swift */; };
-		C8A11E4024FE2501001DE145 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E3F24FE2501001DE145 /* SceneDelegate.swift */; };
-		C8A11E4224FE2501001DE145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E4124FE2501001DE145 /* ViewController.swift */; };
-		C8A11E4524FE2501001DE145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A11E4324FE2501001DE145 /* Main.storyboard */; };
-		C8A11E4724FE2506001DE145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A11E4624FE2506001DE145 /* Assets.xcassets */; };
-		C8A11E4A24FE2506001DE145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A11E4824FE2506001DE145 /* LaunchScreen.storyboard */; };
-		C8A11E5524FE2506001DE145 /* MeshiMatchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E5424FE2506001DE145 /* MeshiMatchingTests.swift */; };
-		C8A11E6024FE2506001DE145 /* MeshiMatchingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E5F24FE2506001DE145 /* MeshiMatchingUITests.swift */; };
+		8D752B1178CC4E612C3B89F0 /* Pods_MeshiMatchingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716FA2F8BF68A3B667FFECEC /* Pods_MeshiMatchingTests.framework */; };
+		C8A11E7A24FE2535001DE145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E7924FE2535001DE145 /* AppDelegate.swift */; };
+		C8A11E7C24FE2535001DE145 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E7B24FE2535001DE145 /* SceneDelegate.swift */; };
+		C8A11E7E24FE2535001DE145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E7D24FE2535001DE145 /* ViewController.swift */; };
+		C8A11E8124FE2535001DE145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A11E7F24FE2535001DE145 /* Main.storyboard */; };
+		C8A11E8324FE2536001DE145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A11E8224FE2536001DE145 /* Assets.xcassets */; };
+		C8A11E8624FE2536001DE145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A11E8424FE2536001DE145 /* LaunchScreen.storyboard */; };
+		C8A11E9124FE2536001DE145 /* MeshiMatchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E9024FE2536001DE145 /* MeshiMatchingTests.swift */; };
+		C8A11E9C24FE2536001DE145 /* MeshiMatchingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11E9B24FE2536001DE145 /* MeshiMatchingUITests.swift */; };
+		C8A11EAB24FE287A001DE145 /* SwipeMatching.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A11EAA24FE287A001DE145 /* SwipeMatching.storyboard */; };
+		C8A11EAD24FE28B3001DE145 /* SwipeMatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A11EAC24FE28B3001DE145 /* SwipeMatchingViewController.swift */; };
+		E9E2BD5334E8603D19A4811A /* Pods_MeshiMatching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B218089898622E110CAF94C1 /* Pods_MeshiMatching.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C8A11E5124FE2506001DE145 /* PBXContainerItemProxy */ = {
+		C8A11E8D24FE2536001DE145 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8A11E3224FE2501001DE145 /* Project object */;
+			containerPortal = C8A11E6E24FE2535001DE145 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8A11E3924FE2501001DE145;
+			remoteGlobalIDString = C8A11E7524FE2535001DE145;
 			remoteInfo = MeshiMatching;
 		};
-		C8A11E5C24FE2506001DE145 /* PBXContainerItemProxy */ = {
+		C8A11E9824FE2536001DE145 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8A11E3224FE2501001DE145 /* Project object */;
+			containerPortal = C8A11E6E24FE2535001DE145 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8A11E3924FE2501001DE145;
+			remoteGlobalIDString = C8A11E7524FE2535001DE145;
 			remoteInfo = MeshiMatching;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C8A11E3A24FE2501001DE145 /* MeshiMatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeshiMatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8A11E3D24FE2501001DE145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8A11E3F24FE2501001DE145 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C8A11E4124FE2501001DE145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C8A11E4424FE2501001DE145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C8A11E4624FE2506001DE145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C8A11E4924FE2506001DE145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C8A11E4B24FE2506001DE145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8A11E5024FE2506001DE145 /* MeshiMatchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshiMatchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8A11E5424FE2506001DE145 /* MeshiMatchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshiMatchingTests.swift; sourceTree = "<group>"; };
-		C8A11E5624FE2506001DE145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8A11E5B24FE2506001DE145 /* MeshiMatchingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshiMatchingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8A11E5F24FE2506001DE145 /* MeshiMatchingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshiMatchingUITests.swift; sourceTree = "<group>"; };
-		C8A11E6124FE2506001DE145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A64D18C193CBA9A5A7CE9C5 /* Pods-MeshiMatchingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeshiMatchingTests.release.xcconfig"; path = "Target Support Files/Pods-MeshiMatchingTests/Pods-MeshiMatchingTests.release.xcconfig"; sourceTree = "<group>"; };
+		716FA2F8BF68A3B667FFECEC /* Pods_MeshiMatchingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeshiMatchingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D23F1B087106888A5DE138 /* Pods-MeshiMatching.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeshiMatching.debug.xcconfig"; path = "Target Support Files/Pods-MeshiMatching/Pods-MeshiMatching.debug.xcconfig"; sourceTree = "<group>"; };
+		B218089898622E110CAF94C1 /* Pods_MeshiMatching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeshiMatching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A11E7624FE2535001DE145 /* MeshiMatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeshiMatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A11E7924FE2535001DE145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8A11E7B24FE2535001DE145 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C8A11E7D24FE2535001DE145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8A11E8024FE2535001DE145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8A11E8224FE2536001DE145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8A11E8524FE2536001DE145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8A11E8724FE2536001DE145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A11E8C24FE2536001DE145 /* MeshiMatchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshiMatchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A11E9024FE2536001DE145 /* MeshiMatchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshiMatchingTests.swift; sourceTree = "<group>"; };
+		C8A11E9224FE2536001DE145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A11E9724FE2536001DE145 /* MeshiMatchingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshiMatchingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A11E9B24FE2536001DE145 /* MeshiMatchingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshiMatchingUITests.swift; sourceTree = "<group>"; };
+		C8A11E9D24FE2536001DE145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A11EAA24FE287A001DE145 /* SwipeMatching.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SwipeMatching.storyboard; sourceTree = "<group>"; };
+		C8A11EAC24FE28B3001DE145 /* SwipeMatchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeMatchingViewController.swift; sourceTree = "<group>"; };
+		CFEF1ABEA69768813FC116DA /* Pods-MeshiMatching.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeshiMatching.release.xcconfig"; path = "Target Support Files/Pods-MeshiMatching/Pods-MeshiMatching.release.xcconfig"; sourceTree = "<group>"; };
+		F16C0F48E59A242B14384E46 /* Pods-MeshiMatchingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeshiMatchingTests.debug.xcconfig"; path = "Target Support Files/Pods-MeshiMatchingTests/Pods-MeshiMatchingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C8A11E3724FE2501001DE145 /* Frameworks */ = {
+		C8A11E7324FE2535001DE145 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E2BD5334E8603D19A4811A /* Pods_MeshiMatching.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8A11E4D24FE2506001DE145 /* Frameworks */ = {
+		C8A11E8924FE2536001DE145 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D752B1178CC4E612C3B89F0 /* Pods_MeshiMatchingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8A11E5824FE2506001DE145 /* Frameworks */ = {
+		C8A11E9424FE2536001DE145 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,68 +90,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C8A11E3124FE2501001DE145 = {
+		2F48DADB49783BBE345B1AE6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C8A11E3C24FE2501001DE145 /* MeshiMatching */,
-				C8A11E5324FE2506001DE145 /* MeshiMatchingTests */,
-				C8A11E5E24FE2506001DE145 /* MeshiMatchingUITests */,
-				C8A11E3B24FE2501001DE145 /* Products */,
+				77D23F1B087106888A5DE138 /* Pods-MeshiMatching.debug.xcconfig */,
+				CFEF1ABEA69768813FC116DA /* Pods-MeshiMatching.release.xcconfig */,
+				F16C0F48E59A242B14384E46 /* Pods-MeshiMatchingTests.debug.xcconfig */,
+				4A64D18C193CBA9A5A7CE9C5 /* Pods-MeshiMatchingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		46999FFB94FDF2A6A935F6A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B218089898622E110CAF94C1 /* Pods_MeshiMatching.framework */,
+				716FA2F8BF68A3B667FFECEC /* Pods_MeshiMatchingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8A11E6D24FE2535001DE145 = {
+			isa = PBXGroup;
+			children = (
+				C8A11E7824FE2535001DE145 /* MeshiMatching */,
+				C8A11E8F24FE2536001DE145 /* MeshiMatchingTests */,
+				C8A11E9A24FE2536001DE145 /* MeshiMatchingUITests */,
+				C8A11E7724FE2535001DE145 /* Products */,
+				2F48DADB49783BBE345B1AE6 /* Pods */,
+				46999FFB94FDF2A6A935F6A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C8A11E3B24FE2501001DE145 /* Products */ = {
+		C8A11E7724FE2535001DE145 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8A11E3A24FE2501001DE145 /* MeshiMatching.app */,
-				C8A11E5024FE2506001DE145 /* MeshiMatchingTests.xctest */,
-				C8A11E5B24FE2506001DE145 /* MeshiMatchingUITests.xctest */,
+				C8A11E7624FE2535001DE145 /* MeshiMatching.app */,
+				C8A11E8C24FE2536001DE145 /* MeshiMatchingTests.xctest */,
+				C8A11E9724FE2536001DE145 /* MeshiMatchingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C8A11E3C24FE2501001DE145 /* MeshiMatching */ = {
+		C8A11E7824FE2535001DE145 /* MeshiMatching */ = {
 			isa = PBXGroup;
 			children = (
-				C8A11E3D24FE2501001DE145 /* AppDelegate.swift */,
-				C8A11E3F24FE2501001DE145 /* SceneDelegate.swift */,
-				C8A11E4124FE2501001DE145 /* ViewController.swift */,
-				C8A11E4324FE2501001DE145 /* Main.storyboard */,
-				C8A11E4624FE2506001DE145 /* Assets.xcassets */,
-				C8A11E4824FE2506001DE145 /* LaunchScreen.storyboard */,
-				C8A11E4B24FE2506001DE145 /* Info.plist */,
+				C8A11EA924FE281E001DE145 /* SwipeMatching */,
+				C8A11E7924FE2535001DE145 /* AppDelegate.swift */,
+				C8A11E7B24FE2535001DE145 /* SceneDelegate.swift */,
+				C8A11E7D24FE2535001DE145 /* ViewController.swift */,
+				C8A11E7F24FE2535001DE145 /* Main.storyboard */,
+				C8A11E8224FE2536001DE145 /* Assets.xcassets */,
+				C8A11E8424FE2536001DE145 /* LaunchScreen.storyboard */,
+				C8A11E8724FE2536001DE145 /* Info.plist */,
 			);
 			path = MeshiMatching;
 			sourceTree = "<group>";
 		};
-		C8A11E5324FE2506001DE145 /* MeshiMatchingTests */ = {
+		C8A11E8F24FE2536001DE145 /* MeshiMatchingTests */ = {
 			isa = PBXGroup;
 			children = (
-				C8A11E5424FE2506001DE145 /* MeshiMatchingTests.swift */,
-				C8A11E5624FE2506001DE145 /* Info.plist */,
+				C8A11E9024FE2536001DE145 /* MeshiMatchingTests.swift */,
+				C8A11E9224FE2536001DE145 /* Info.plist */,
 			);
 			path = MeshiMatchingTests;
 			sourceTree = "<group>";
 		};
-		C8A11E5E24FE2506001DE145 /* MeshiMatchingUITests */ = {
+		C8A11E9A24FE2536001DE145 /* MeshiMatchingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C8A11E5F24FE2506001DE145 /* MeshiMatchingUITests.swift */,
-				C8A11E6124FE2506001DE145 /* Info.plist */,
+				C8A11E9B24FE2536001DE145 /* MeshiMatchingUITests.swift */,
+				C8A11E9D24FE2536001DE145 /* Info.plist */,
 			);
 			path = MeshiMatchingUITests;
+			sourceTree = "<group>";
+		};
+		C8A11EA924FE281E001DE145 /* SwipeMatching */ = {
+			isa = PBXGroup;
+			children = (
+				C8A11EAA24FE287A001DE145 /* SwipeMatching.storyboard */,
+				C8A11EAC24FE28B3001DE145 /* SwipeMatchingViewController.swift */,
+			);
+			path = SwipeMatching;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8A11E3924FE2501001DE145 /* MeshiMatching */ = {
+		C8A11E7524FE2535001DE145 /* MeshiMatching */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8A11E6424FE2506001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatching" */;
+			buildConfigurationList = C8A11EA024FE2536001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatching" */;
 			buildPhases = (
-				C8A11E3624FE2501001DE145 /* Sources */,
-				C8A11E3724FE2501001DE145 /* Frameworks */,
-				C8A11E3824FE2501001DE145 /* Resources */,
+				CAC2250DC767AB579F207E3B /* [CP] Check Pods Manifest.lock */,
+				C8A11E7224FE2535001DE145 /* Sources */,
+				C8A11E7324FE2535001DE145 /* Frameworks */,
+				C8A11E7424FE2535001DE145 /* Resources */,
+				723927ACF3887ACFEFD47D3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,69 +194,70 @@
 			);
 			name = MeshiMatching;
 			productName = MeshiMatching;
-			productReference = C8A11E3A24FE2501001DE145 /* MeshiMatching.app */;
+			productReference = C8A11E7624FE2535001DE145 /* MeshiMatching.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C8A11E4F24FE2506001DE145 /* MeshiMatchingTests */ = {
+		C8A11E8B24FE2536001DE145 /* MeshiMatchingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8A11E6724FE2506001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatchingTests" */;
+			buildConfigurationList = C8A11EA324FE2536001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatchingTests" */;
 			buildPhases = (
-				C8A11E4C24FE2506001DE145 /* Sources */,
-				C8A11E4D24FE2506001DE145 /* Frameworks */,
-				C8A11E4E24FE2506001DE145 /* Resources */,
+				EE34FE21B726853838EA5DC2 /* [CP] Check Pods Manifest.lock */,
+				C8A11E8824FE2536001DE145 /* Sources */,
+				C8A11E8924FE2536001DE145 /* Frameworks */,
+				C8A11E8A24FE2536001DE145 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8A11E5224FE2506001DE145 /* PBXTargetDependency */,
+				C8A11E8E24FE2536001DE145 /* PBXTargetDependency */,
 			);
 			name = MeshiMatchingTests;
 			productName = MeshiMatchingTests;
-			productReference = C8A11E5024FE2506001DE145 /* MeshiMatchingTests.xctest */;
+			productReference = C8A11E8C24FE2536001DE145 /* MeshiMatchingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C8A11E5A24FE2506001DE145 /* MeshiMatchingUITests */ = {
+		C8A11E9624FE2536001DE145 /* MeshiMatchingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8A11E6A24FE2506001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatchingUITests" */;
+			buildConfigurationList = C8A11EA624FE2536001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatchingUITests" */;
 			buildPhases = (
-				C8A11E5724FE2506001DE145 /* Sources */,
-				C8A11E5824FE2506001DE145 /* Frameworks */,
-				C8A11E5924FE2506001DE145 /* Resources */,
+				C8A11E9324FE2536001DE145 /* Sources */,
+				C8A11E9424FE2536001DE145 /* Frameworks */,
+				C8A11E9524FE2536001DE145 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8A11E5D24FE2506001DE145 /* PBXTargetDependency */,
+				C8A11E9924FE2536001DE145 /* PBXTargetDependency */,
 			);
 			name = MeshiMatchingUITests;
 			productName = MeshiMatchingUITests;
-			productReference = C8A11E5B24FE2506001DE145 /* MeshiMatchingUITests.xctest */;
+			productReference = C8A11E9724FE2536001DE145 /* MeshiMatchingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C8A11E3224FE2501001DE145 /* Project object */ = {
+		C8A11E6E24FE2535001DE145 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "阪井　洋樹";
 				TargetAttributes = {
-					C8A11E3924FE2501001DE145 = {
+					C8A11E7524FE2535001DE145 = {
 						CreatedOnToolsVersion = 11.6;
 					};
-					C8A11E4F24FE2506001DE145 = {
+					C8A11E8B24FE2536001DE145 = {
 						CreatedOnToolsVersion = 11.6;
-						TestTargetID = C8A11E3924FE2501001DE145;
+						TestTargetID = C8A11E7524FE2535001DE145;
 					};
-					C8A11E5A24FE2506001DE145 = {
+					C8A11E9624FE2536001DE145 = {
 						CreatedOnToolsVersion = 11.6;
-						TestTargetID = C8A11E3924FE2501001DE145;
+						TestTargetID = C8A11E7524FE2535001DE145;
 					};
 				};
 			};
-			buildConfigurationList = C8A11E3524FE2501001DE145 /* Build configuration list for PBXProject "MeshiMatching" */;
+			buildConfigurationList = C8A11E7124FE2535001DE145 /* Build configuration list for PBXProject "MeshiMatching" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +265,38 @@
 				en,
 				Base,
 			);
-			mainGroup = C8A11E3124FE2501001DE145;
-			productRefGroup = C8A11E3B24FE2501001DE145 /* Products */;
+			mainGroup = C8A11E6D24FE2535001DE145;
+			productRefGroup = C8A11E7724FE2535001DE145 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8A11E3924FE2501001DE145 /* MeshiMatching */,
-				C8A11E4F24FE2506001DE145 /* MeshiMatchingTests */,
-				C8A11E5A24FE2506001DE145 /* MeshiMatchingUITests */,
+				C8A11E7524FE2535001DE145 /* MeshiMatching */,
+				C8A11E8B24FE2536001DE145 /* MeshiMatchingTests */,
+				C8A11E9624FE2536001DE145 /* MeshiMatchingUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C8A11E3824FE2501001DE145 /* Resources */ = {
+		C8A11E7424FE2535001DE145 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A11E4A24FE2506001DE145 /* LaunchScreen.storyboard in Resources */,
-				C8A11E4724FE2506001DE145 /* Assets.xcassets in Resources */,
-				C8A11E4524FE2501001DE145 /* Main.storyboard in Resources */,
+				C8A11E8624FE2536001DE145 /* LaunchScreen.storyboard in Resources */,
+				C8A11EAB24FE287A001DE145 /* SwipeMatching.storyboard in Resources */,
+				C8A11E8324FE2536001DE145 /* Assets.xcassets in Resources */,
+				C8A11E8124FE2535001DE145 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8A11E4E24FE2506001DE145 /* Resources */ = {
+		C8A11E8A24FE2536001DE145 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8A11E5924FE2506001DE145 /* Resources */ = {
+		C8A11E9524FE2536001DE145 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +305,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		723927ACF3887ACFEFD47D3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeshiMatching/Pods-MeshiMatching-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeshiMatching/Pods-MeshiMatching-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeshiMatching/Pods-MeshiMatching-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC2250DC767AB579F207E3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeshiMatching-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE34FE21B726853838EA5DC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeshiMatchingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		C8A11E3624FE2501001DE145 /* Sources */ = {
+		C8A11E7224FE2535001DE145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A11E4224FE2501001DE145 /* ViewController.swift in Sources */,
-				C8A11E3E24FE2501001DE145 /* AppDelegate.swift in Sources */,
-				C8A11E4024FE2501001DE145 /* SceneDelegate.swift in Sources */,
+				C8A11E7E24FE2535001DE145 /* ViewController.swift in Sources */,
+				C8A11E7A24FE2535001DE145 /* AppDelegate.swift in Sources */,
+				C8A11EAD24FE28B3001DE145 /* SwipeMatchingViewController.swift in Sources */,
+				C8A11E7C24FE2535001DE145 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8A11E4C24FE2506001DE145 /* Sources */ = {
+		C8A11E8824FE2536001DE145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A11E5524FE2506001DE145 /* MeshiMatchingTests.swift in Sources */,
+				C8A11E9124FE2536001DE145 /* MeshiMatchingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8A11E5724FE2506001DE145 /* Sources */ = {
+		C8A11E9324FE2536001DE145 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A11E6024FE2506001DE145 /* MeshiMatchingUITests.swift in Sources */,
+				C8A11E9C24FE2536001DE145 /* MeshiMatchingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C8A11E5224FE2506001DE145 /* PBXTargetDependency */ = {
+		C8A11E8E24FE2536001DE145 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A11E3924FE2501001DE145 /* MeshiMatching */;
-			targetProxy = C8A11E5124FE2506001DE145 /* PBXContainerItemProxy */;
+			target = C8A11E7524FE2535001DE145 /* MeshiMatching */;
+			targetProxy = C8A11E8D24FE2536001DE145 /* PBXContainerItemProxy */;
 		};
-		C8A11E5D24FE2506001DE145 /* PBXTargetDependency */ = {
+		C8A11E9924FE2536001DE145 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8A11E3924FE2501001DE145 /* MeshiMatching */;
-			targetProxy = C8A11E5C24FE2506001DE145 /* PBXContainerItemProxy */;
+			target = C8A11E7524FE2535001DE145 /* MeshiMatching */;
+			targetProxy = C8A11E9824FE2536001DE145 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C8A11E4324FE2501001DE145 /* Main.storyboard */ = {
+		C8A11E7F24FE2535001DE145 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C8A11E4424FE2501001DE145 /* Base */,
+				C8A11E8024FE2535001DE145 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C8A11E4824FE2506001DE145 /* LaunchScreen.storyboard */ = {
+		C8A11E8424FE2536001DE145 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C8A11E4924FE2506001DE145 /* Base */,
+				C8A11E8524FE2536001DE145 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +432,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C8A11E6224FE2506001DE145 /* Debug */ = {
+		C8A11E9E24FE2536001DE145 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +492,7 @@
 			};
 			name = Debug;
 		};
-		C8A11E6324FE2506001DE145 /* Release */ = {
+		C8A11E9F24FE2536001DE145 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,8 +546,9 @@
 			};
 			name = Release;
 		};
-		C8A11E6524FE2506001DE145 /* Debug */ = {
+		C8A11EA124FE2536001DE145 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D23F1B087106888A5DE138 /* Pods-MeshiMatching.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,8 +564,9 @@
 			};
 			name = Debug;
 		};
-		C8A11E6624FE2506001DE145 /* Release */ = {
+		C8A11EA224FE2536001DE145 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEF1ABEA69768813FC116DA /* Pods-MeshiMatching.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,8 +582,9 @@
 			};
 			name = Release;
 		};
-		C8A11E6824FE2506001DE145 /* Debug */ = {
+		C8A11EA424FE2536001DE145 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16C0F48E59A242B14384E46 /* Pods-MeshiMatchingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,8 +604,9 @@
 			};
 			name = Debug;
 		};
-		C8A11E6924FE2506001DE145 /* Release */ = {
+		C8A11EA524FE2536001DE145 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A64D18C193CBA9A5A7CE9C5 /* Pods-MeshiMatchingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,7 +626,7 @@
 			};
 			name = Release;
 		};
-		C8A11E6B24FE2506001DE145 /* Debug */ = {
+		C8A11EA724FE2536001DE145 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,7 +645,7 @@
 			};
 			name = Debug;
 		};
-		C8A11E6C24FE2506001DE145 /* Release */ = {
+		C8A11EA824FE2536001DE145 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,43 +667,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8A11E3524FE2501001DE145 /* Build configuration list for PBXProject "MeshiMatching" */ = {
+		C8A11E7124FE2535001DE145 /* Build configuration list for PBXProject "MeshiMatching" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8A11E6224FE2506001DE145 /* Debug */,
-				C8A11E6324FE2506001DE145 /* Release */,
+				C8A11E9E24FE2536001DE145 /* Debug */,
+				C8A11E9F24FE2536001DE145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8A11E6424FE2506001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatching" */ = {
+		C8A11EA024FE2536001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatching" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8A11E6524FE2506001DE145 /* Debug */,
-				C8A11E6624FE2506001DE145 /* Release */,
+				C8A11EA124FE2536001DE145 /* Debug */,
+				C8A11EA224FE2536001DE145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8A11E6724FE2506001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatchingTests" */ = {
+		C8A11EA324FE2536001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatchingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8A11E6824FE2506001DE145 /* Debug */,
-				C8A11E6924FE2506001DE145 /* Release */,
+				C8A11EA424FE2536001DE145 /* Debug */,
+				C8A11EA524FE2536001DE145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8A11E6A24FE2506001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatchingUITests" */ = {
+		C8A11EA624FE2536001DE145 /* Build configuration list for PBXNativeTarget "MeshiMatchingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8A11E6B24FE2506001DE145 /* Debug */,
-				C8A11E6C24FE2506001DE145 /* Release */,
+				C8A11EA724FE2536001DE145 /* Debug */,
+				C8A11EA824FE2536001DE145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C8A11E3224FE2501001DE145 /* Project object */;
+	rootObject = C8A11E6E24FE2535001DE145 /* Project object */;
 }
