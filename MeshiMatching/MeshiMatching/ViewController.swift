@@ -19,7 +19,8 @@ class ViewController: UIViewController {
 
     @IBAction func enter(_ sender: Any) {
         let storyboard = UIStoryboard(name: "SwipeMatching", bundle: nil)
-        let nextViewController = storyboard.instantiateInitialViewController() as! SwipeMatchingViewController
+        //let nextViewController = storyboard.instantiateInitialViewController() as! SwipeMatchingViewController
+        let nextViewController = storyboard.instantiateInitialViewController() as! UITabBarController
         nextViewController.modalPresentationStyle = .fullScreen
         self.present(nextViewController, animated: true, completion: nil)
     }
