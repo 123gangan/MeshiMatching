@@ -22,11 +22,14 @@
                     </tabBar>
                     <connections>
                         <segue destination="hrX-R2-44s" kind="relationship" relationship="viewControllers" id="ySG-Bi-vUN"/>
+                        <segue destination="EKs-HB-BOW" kind="relationship" relationship="viewControllers" id="juN-7l-5oA"/>
+                        <segue destination="dZH-eG-tZ0" kind="relationship" relationship="viewControllers" id="CWd-eb-fq9"/>
+                        <segue destination="2eC-NH-T2w" kind="relationship" relationship="viewControllers" id="Raz-8h-Vxb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yCd-f7-Idq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1993" y="20"/>
+            <point key="canvasLocation" x="-2043" y="-235"/>
         </scene>
         <!--ホーム-->
         <scene sceneID="91O-rf-4wH">
@@ -50,17 +53,17 @@
                                 <rect key="frame" x="32" y="132" width="350" height="632"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g7m-Mo-4RE">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="632"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="616"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2eO-pL-Idm">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="406.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="396"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kK5-R8-vFf">
-                                                <rect key="frame" x="0.0" y="406.5" width="350" height="225.5"/>
+                                                <rect key="frame" x="0.0" y="396" width="350" height="220"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NdH-UX-5om">
-                                                        <rect key="frame" x="8" y="8" width="334" height="209.5"/>
+                                                        <rect key="frame" x="8" y="8" width="334" height="204"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WSo-zV-2NK">
                                                                 <rect key="frame" x="0.0" y="0.0" width="334" height="66"/>
@@ -153,13 +156,13 @@
                                                                 </constraints>
                                                             </view>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ciM-7d-QJP">
-                                                                <rect key="frame" x="0.0" y="158" width="334" height="51.5"/>
+                                                                <rect key="frame" x="0.0" y="158" width="334" height="46"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wMK-gX-t0h">
-                                                                        <rect key="frame" x="8" y="8" width="318" height="35.5"/>
+                                                                        <rect key="frame" x="8" y="8" width="318" height="30"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最寄り駅からの距離" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QiA-qH-Bh5">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="318" height="35.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="318" height="30"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
@@ -201,32 +204,12 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="g7m-Mo-4RE" secondAttribute="bottom" id="HGf-q9-brl"/>
                                     <constraint firstItem="g7m-Mo-4RE" firstAttribute="top" secondItem="S3p-Li-Ms8" secondAttribute="top" id="W8P-Sg-C8H"/>
                                     <constraint firstAttribute="trailing" secondItem="g7m-Mo-4RE" secondAttribute="trailing" id="cs9-mZ-pQR"/>
                                     <constraint firstAttribute="width" constant="350" id="lyM-XF-Ons"/>
                                     <constraint firstItem="g7m-Mo-4RE" firstAttribute="leading" secondItem="S3p-Li-Ms8" secondAttribute="leading" id="x6i-TU-vbL"/>
                                 </constraints>
                             </view>
-                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7wu-x3-5Te">
-                                <rect key="frame" x="0.0" y="812" width="414" height="84"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="ホーム" image="house" catalog="system" id="YX3-kU-tXz">
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="検索" image="magnifyingglass" catalog="system" id="3dP-gt-KRd">
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="イベント" image="star" catalog="system" id="IkJ-TH-buB">
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                    <tabBarItem title="マイページ" image="person" catalog="system" id="edF-cH-a7P">
-                                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                                    </tabBarItem>
-                                </items>
-                                <color key="barTintColor" systemColor="systemYellowColor"/>
-                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WaT-zw-1Jy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -234,13 +217,9 @@
                             <constraint firstItem="S3p-Li-Ms8" firstAttribute="top" secondItem="mSZ-sU-Ouc" secondAttribute="bottom" constant="48" id="1rZ-Jj-i7G"/>
                             <constraint firstItem="mSZ-sU-Ouc" firstAttribute="leading" secondItem="WaT-zw-1Jy" secondAttribute="leading" id="4op-sz-a1i"/>
                             <constraint firstItem="WaT-zw-1Jy" firstAttribute="trailing" secondItem="mSZ-sU-Ouc" secondAttribute="trailing" id="9bJ-ty-U5g"/>
-                            <constraint firstItem="7wu-x3-5Te" firstAttribute="top" secondItem="S3p-Li-Ms8" secondAttribute="bottom" constant="48" id="HWt-Cf-TUV"/>
-                            <constraint firstAttribute="bottom" secondItem="7wu-x3-5Te" secondAttribute="bottom" id="Kyw-6K-4Fy"/>
                             <constraint firstItem="S3p-Li-Ms8" firstAttribute="leading" secondItem="WaT-zw-1Jy" secondAttribute="leading" constant="32" id="Vjb-SZ-naE"/>
                             <constraint firstItem="WaT-zw-1Jy" firstAttribute="trailing" secondItem="S3p-Li-Ms8" secondAttribute="trailing" constant="32" id="dyE-zf-49Y"/>
-                            <constraint firstItem="7wu-x3-5Te" firstAttribute="trailing" secondItem="WaT-zw-1Jy" secondAttribute="trailing" id="eVh-3k-A13"/>
                             <constraint firstItem="mSZ-sU-Ouc" firstAttribute="top" secondItem="WaT-zw-1Jy" secondAttribute="top" id="fbL-2r-OfC"/>
-                            <constraint firstItem="7wu-x3-5Te" firstAttribute="leading" secondItem="WaT-zw-1Jy" secondAttribute="leading" id="tXY-Uy-FhB"/>
                             <constraint firstItem="S3p-Li-Ms8" firstAttribute="centerY" secondItem="3vA-W5-Pqe" secondAttribute="centerY" id="vfF-6y-fHV"/>
                             <constraint firstItem="S3p-Li-Ms8" firstAttribute="centerX" secondItem="3vA-W5-Pqe" secondAttribute="centerX" id="zL9-hL-CTw"/>
                         </constraints>
@@ -251,7 +230,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q1W-CI-Lcv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1100" y="-325"/>
+            <point key="canvasLocation" x="-2043" y="565"/>
+        </scene>
+        <!--検索-->
+        <scene sceneID="1pl-s2-cut">
+            <objects>
+                <viewController id="EKs-HB-BOW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qVw-4v-eB7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tv5-5i-OeK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="検索" image="magnifyingglass" catalog="system" id="wra-ZN-DNB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kBU-Vz-mt7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1138" y="565"/>
+        </scene>
+        <!--イベント-->
+        <scene sceneID="Yar-M4-xVr">
+            <objects>
+                <viewController id="dZH-eG-tZ0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1c1-ue-evx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="3wl-9M-Wvw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="イベント" image="star" catalog="system" id="gbk-2h-n5k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfR-So-59W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-249" y="565"/>
+        </scene>
+        <!--マイページ-->
+        <scene sceneID="Bx7-E3-ONb">
+            <objects>
+                <viewController id="2eC-NH-T2w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ols-96-LGR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="QGg-65-Ohm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="マイページ" image="person" catalog="system" id="hIK-JM-kDT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mwE-BZ-rbx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596" y="565"/>
         </scene>
     </scenes>
     <resources>
